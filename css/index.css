@@ -1,0 +1,132 @@
+/* CSS Document */
+
+.bannerbox {
+	width: 100%;
+	height: 400px;
+}
+.banner {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	position: relative;
+}
+
+.ban-img{
+	height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+.l-bnt{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	font-size: 46px;
+	color: rgba(255,255,255,0.6);
+	cursor: pointer;
+	display: block;
+}
+.r-bnt{
+	width: 100px;
+	height: 100px;
+	color: rgba(255,255,255,0.6);
+	position: absolute;
+	top: 180px;
+	right: 400px;
+	font-size: 46px;
+	cursor: pointer;
+	display: block;
+}
+.l-bnt:hover{color: rgba(255,255,255,0.8);}
+.r-bnt:hover{color: rgba(255,255,255,0.8);}
+.ban-yqbox {
+	position: absolute;
+	top: 90%;
+	left: 45%;
+	width: 150px;
+	height: 30px;
+	margin: auto;
+
+}
+.ban-yqbox>li{
+	float: left;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+.on{
+	width: 15px;
+	height: 15px;
+	border: 2px solid #930000;
+	background-color: #DCDCDC;
+	border-radius: 50%;
+	margin-left: 20px;
+}
+
+
+.conbox {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.con-nav {
+	width: 1200px;
+	height: 60px;
+}
+.con-nav>a{
+	display: block;
+	width: 240px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	font-size:20px;
+	float: left;
+	background-color: rgba(241,183,183,0.0);
+	transition: all 1s;
+	
+}
+.connava{
+	background-color: rgba(241,183,183,0.5)!important;
+}
+
+.connent {
+	width: 1200px;
+	height: 700px;
+	overflow: hidden;
+}
+
+.con-title {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height:50px;
+	font-family: "华文行楷";
+	font-size: 22px;
+	color: #686868;
+}
+
+.con-img {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.con-ht {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 35px;
+	background-color:rgba(0,0,0,0.4);
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	color: white;
+}
+
+
